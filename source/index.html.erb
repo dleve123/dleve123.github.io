@@ -1,9 +1,19 @@
 ---
-title: Daniel Levenson
+title: Daniel Levenson | Web Engineer
 ---
 
 <main>
   <h1>Daniel Levenson</h1>
-  <%= image_tag 'dan_in_red.png' %>
-  <p>Hello World</p>
+  <hr>
+  <%= image_tag 'dan_with_bike_cropped.png', alt: "headshot" %>
+  <h2>I'm an engineer with a passion for people.</h2>
+
+  <section id='description'>
+    <p>I love great food, NYC, Baltimore, Ruby, Rails and vim in no particular order.</p>
+    <p>I do computers over at <%= link_to 'Healthify', 'http://healthify.us' %>
+    and learn about MRI scanners at <%= link_to 'JHU', 'http://bme.jhu.edu' %>.</p>
+    <br>
+    <p>Read my <%= link_to 'resume', 'docs/resume_Levenson_fall_2013.pdf' %>.
+  </section>
+
 </main>
